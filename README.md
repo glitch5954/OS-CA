@@ -2,10 +2,6 @@
 
 # 🚀 Safeguard File Nexus – Secure File Management System
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)]()
-[![Security](https://img.shields.io/badge/Security-High-critical.svg)]()
-
 ---
 
 ## 📌 Overview
