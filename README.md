@@ -1,64 +1,67 @@
 # OS-CA
-Project: Secure File Management System
 
-Safeguard File Nexus
-A Secure and Encrypted File Management System
+# 🚀 Safeguard File Nexus – Secure File Management System
 
-Overview
-Safeguard File Nexus is a highly secure file management system that ensures safe storage, sharing, and access control for digital files. With features like multi-factor authentication, end-to-end encryption, and real-time threat detection, this system is designed to protect sensitive data from unauthorized access and cyber threats.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)]()
+[![Security](https://img.shields.io/badge/Security-High-critical.svg)]()
 
-Key Features
-User Authentication: Supports password-based and two-factor authentication (2FA) for secure access.
+---
 
-End-to-End Encryption: Files are encrypted before storage and decrypted only on authorized access.
+## 📌 Overview
 
-Role-Based Access Control (RBAC): Restricts file operations based on user roles and permissions.
+**Safeguard File Nexus** is a **high-security file management system** designed to protect digital assets through advanced authentication, encryption, and real-time threat detection. It ensures **secure storage, controlled access, and file operations** while preventing unauthorized access and cyber threats.
 
-File Operations: Securely upload, download, read, write, share, and manage metadata.
+🔹 **Authentication:** Password & Two-Factor Authentication (2FA)  
+🔹 **End-to-End Encryption:** AES/RSA-based encryption for file security  
+🔹 **Role-Based Access Control (RBAC):** User permission management  
+🔹 **File Operations:** Secure **upload, download, read, write, and share**  
+🔹 **Threat Detection:** Identifies malware, buffer overflow, unauthorized access  
+🔹 **Audit Logs & Tracking:** Tracks all file activities for security compliance  
 
-Threat Detection: Identifies and mitigates common security threats like malware and buffer overflow attacks.
+---
 
-Audit Logs & Tracking: Logs user activities for security and compliance monitoring.
+## 🏗️ Technology Stack
 
-Scalable & Modular Architecture: Built with scalability in mind to support future enhancements.
+### **Frontend**
+- ⚛️ **React.js** – Modern UI with component-based architecture  
+- ⚡ **Vite** – Faster development & build process  
+- 🎨 **ShadCN UI** – Beautiful & responsive UI components  
 
-Technology Stack
-Frontend:
-React.js (Modern UI for smooth user experience)
+### **Backend**
+- 🌐 **Node.js + Express.js** – Handles authentication & file processing  
+- 🛢️ **MongoDB / PostgreSQL** – Secure file metadata storage  
+- 🔑 **JWT Authentication** – Secure user sessions  
 
-Vite (Fast build tool for efficient development)
+### **Security Implementations**
+- 🔐 **AES/RSA Encryption** – Protects stored files  
+- 🛡️ **OAuth 2.0 & MFA** – Enhanced authentication security  
+- 🚧 **Rate Limiting & Logging** – Prevents brute-force attacks  
 
-ShadCN UI (Enhanced UI components)
+---
 
-Backend:
-Node.js & Express.js (Handles authentication, file processing, and security checks)
+## ⚙️ Installation & Setup
 
-MongoDB / PostgreSQL (Database for file metadata and user authentication)
+### **🔧 Prerequisites**
+- Install **Node.js & npm**
+- Set up **MongoDB/PostgreSQL**
+- Create a `.env` file with **API keys & database credentials**
 
-JWT Authentication (For secure session handling)
+### **🚀 Steps to Run Locally**
+```sh
+# 1️⃣ Clone the repository
+git clone https://github.com/yourusername/safeguard-file-nexus.git
+cd safeguard-file-nexus
 
-Security Implementations:
-AES/RSA encryption for file security
+# 2️⃣ Install dependencies
+npm install
 
-OAuth 2.0 for authentication
+# 3️⃣ Start the backend server
+npm run start
 
-Rate limiting to prevent brute-force attacks
+# 4️⃣ Navigate to frontend & start the app
+cd client
+npm run dev
 
-System Flow
-User logs in with multi-factor authentication.
-
-Files are encrypted before being stored.
-
-Access is granted based on RBAC (Role-Based Access Control).
-
-Users can upload, download, share, or modify files securely.
-
-The system continuously monitors for threats like malware or unauthorized access attempts.
-
-Installation & Setup
-Prerequisites:
-Node.js & npm installed
-
-MongoDB/PostgreSQL configured
-
-.env file with necessary API keys and database credentials
+# 5️⃣ Open the application in browser
+http://localhost:3000
